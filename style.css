@@ -1,0 +1,70 @@
+
+
+.sellermessage {
+    background: #127af6;
+	font-size: 2vmax;
+	color: white;
+	overflow:hidden;
+    padding: 10px;
+	max-width: 65%;
+	word-wrap: break-word;
+    border-radius: 0px 25px 25px 25px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.buyermessage {
+	background: #127af6;
+	font-size: 2vmax;
+	color: white;
+	padding: 10px;
+	max-width: 65%;
+	word-wrap: break-word;
+    border-radius: 25px 0px 25px 25px;
+    display: inline-block;
+    margin: 5px;
+}
+
+#box {
+	background: white;
+	padding: 10px;
+    border-radius: 10px;
+
+}
+.buyerblock {
+    text-align: right;
+}
+
+#input {
+    background: #fff;
+     position: fixed;
+	 font-size: 2vmax;
+     left: 1%;
+     bottom: 2vmax;
+	 border-radius: 25px 25px 25px 25px;
+     width: 90%;
+	 border:none;
+	 
+     
+}
+
+#input1 {
+    background: white;
+     position: fixed;
+     right: 1%;
+     bottom: 2vmax;
+     width: 5%;
+     border-radius: 15px 15px 15px 15px;
+	 border:none;
+}
+
+#messages {
+    position: fixed;
+	width:100%;
+    max-height:85%;
+    overflow-y: scroll;
+    transition: margin 0.1s;
+}
+#hidden{
+	display: none;
+}
