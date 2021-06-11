@@ -64,6 +64,7 @@
     max-height:85%;
     overflow-y: scroll;
     transition: margin 0.1s;
+	
 }
 #hidden{
 	display: none;
